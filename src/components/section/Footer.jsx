@@ -13,14 +13,14 @@ const Footer = () => {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="indonesia">Indonesia</SelectItem>
-            <SelectItem value="english">Inggris</SelectItem>
+            <SelectItem value="english">Basun</SelectItem>
           </SelectContent>
         </Select>
       </div>
       <div className={'flex gap-2'}>
         <Button variant={'ghost'} className={'font-normal text-xs bg-transparent px-3 py-2 hover:border-0 hover:bg-neutral-200 border-0'}>Bantuan</Button>
-        <Button variant={'ghost'} className={'font-normal text-xs bg-transparent px-3 py-2 hover:border-0 hover:bg-neutral-200 border-0'}>Bantuan</Button>
-        <Button variant={'ghost'} className={'font-normal text-xs bg-transparent px-3 py-2 hover:border-0 hover:bg-neutral-200 border-0'}>Bantuan</Button>
+        <Button variant={'ghost'} className={'font-normal text-xs bg-transparent px-3 py-2 hover:border-0 hover:bg-neutral-200 border-0'}>Privasi</Button>
+        <Button variant={'ghost'} className={'font-normal text-xs bg-transparent px-3 py-2 hover:border-0 hover:bg-neutral-200 border-0'}>Keamanan</Button>
       </div>
     </div>
   );
